@@ -78,3 +78,33 @@ button {
         margin-top: 40px;
 
 }
+
+@media only screen and (max-width: 600px) {
+
+  .container {
+    justify-content: flex-start;
+    margin-left: 24px;
+  }
+  .content {
+    margin-left: 0;
+    padding-left: 0;
+  }
+  img {
+    width: 286.83px;
+    height: 238px;
+  }
+  h1 {
+      font-size: 3rem;
+      line-height: 4.4375rem;
+      max-width: 350px;
+  }
+
+  p {
+      font-size: 1.125rem;
+      line-height: 1.6875rem;
+      width: 328px;
+  }
+
+  h2 {
+    margin-left: 24px;
+  }
