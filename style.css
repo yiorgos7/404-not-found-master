@@ -1,0 +1,80 @@
+html {
+    font-size: 100%;
+    box-sizing: border-box;
+  }
+  
+  *, *::before, *::after {
+    box-sizing: inherit;
+  }
+
+.box {
+    max-width: 1440px;
+    margin: auto;
+    
+    
+}
+
+h2 {
+  display: block;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    margin-left: 77px;
+    margin-top: 40px;
+   font-size: 1.5rem;
+}
+
+img {
+    height: 414px;
+    width: 539px;
+    top: 265px;
+    transform: translateY (-50%);
+    
+}
+
+h1 {
+  margin-top: 0px;
+  font-family: Space Mono;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  text-align: left;
+
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.content {
+  margin-left: 100px;
+  max-width: 586px;
+
+}
+
+p {
+  font-family: Space Mono;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px;
+letter-spacing: -0.035em;
+text-align: left;
+max-width: 386px;
+
+}
+
+button {
+        width: 216px;
+        height: 68px;
+        background-color: #333333;
+        font: space mono;
+        color: white;
+        text-transform: uppercase;
+        margin-top: 40px;
+
+}
